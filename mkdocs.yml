@@ -1,5 +1,5 @@
 site_name:     CommerceTradeShop
-site_url: https://github.com/Breswii/CommerceTradeShop
+site_url: !ENV SITE_URL
 
 repo_url:      https://github.com/Breswii/CommerceTradeShop
 repo_name:     Breswii/CommerceTradeShop
