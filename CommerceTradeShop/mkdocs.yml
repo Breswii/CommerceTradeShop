@@ -1,0 +1,50 @@
+site_name: CommerceTradeShop-wiki
+site_url: !ENV SITE_URL
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/patreon
+      link: https://www.patreon.com/breswii/membership
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/7pJ4s3c48C
+
+
+theme:
+  name: 'material'
+  logo: Details/cts_web.png
+  favicon: Details/cts_web.png
+  palette:
+    - scheme: slate
+      primary: teal
+      accent: teal
+      features:
+        - navigation.expand
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: teal
+      accent: teal
+      features:
+        - navigation.expand
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Fira Sans
+    code: Fira Code
+
+extra_css:
+  - Details/style.css
+
+nav:
+  - Home: index.md
+  - Free Version Guide:
+      - Free Version Quick-Start: Free/Free Quick-Start.md
+  - Pro Version Guide:
+      - Pro Version Quick-Start: Pro/Pro Quick-Start.md
+  - Shop Json Details: Details/ShopGenerator.md
+
+
+
